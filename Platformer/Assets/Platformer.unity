@@ -75,11 +75,55 @@ NavMeshSettings:
     heightInaccuracy: 10
     tileSizeHint: 0
   m_NavMesh: {fileID: 0}
+--- !u!1001 &819399218
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 404800, guid: 4dd543f86ad60a546b4e9878043408d9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 404800, guid: 4dd543f86ad60a546b4e9878043408d9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 404800, guid: 4dd543f86ad60a546b4e9878043408d9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 404800, guid: 4dd543f86ad60a546b4e9878043408d9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 404800, guid: 4dd543f86ad60a546b4e9878043408d9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 404800, guid: 4dd543f86ad60a546b4e9878043408d9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 404800, guid: 4dd543f86ad60a546b4e9878043408d9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 404800, guid: 4dd543f86ad60a546b4e9878043408d9, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4dd543f86ad60a546b4e9878043408d9, type: 2}
+  m_RootGameObject: {fileID: 1220645970}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1220645970
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 104800, guid: 4dd543f86ad60a546b4e9878043408d9, type: 2}
+  m_PrefabInternal: {fileID: 819399218}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1220645975}
@@ -97,8 +141,9 @@ GameObject:
 --- !u!114 &1220645971
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11404800, guid: 4dd543f86ad60a546b4e9878043408d9,
+    type: 2}
+  m_PrefabInternal: {fileID: 819399218}
   m_GameObject: {fileID: 1220645970}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -111,8 +156,9 @@ MonoBehaviour:
 --- !u!61 &1220645972
 BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 6104800, guid: 4dd543f86ad60a546b4e9878043408d9,
+    type: 2}
+  m_PrefabInternal: {fileID: 819399218}
   m_GameObject: {fileID: 1220645970}
   m_Enabled: 1
   m_Material: {fileID: 0}
@@ -122,8 +168,9 @@ BoxCollider2D:
 --- !u!61 &1220645973
 BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 6104798, guid: 4dd543f86ad60a546b4e9878043408d9,
+    type: 2}
+  m_PrefabInternal: {fileID: 819399218}
   m_GameObject: {fileID: 1220645970}
   m_Enabled: 1
   m_Material: {fileID: 0}
@@ -133,8 +180,9 @@ BoxCollider2D:
 --- !u!212 &1220645974
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 21204800, guid: 4dd543f86ad60a546b4e9878043408d9,
+    type: 2}
+  m_PrefabInternal: {fileID: 819399218}
   m_GameObject: {fileID: 1220645970}
   m_Enabled: 1
   m_CastShadows: 0
@@ -155,8 +203,8 @@ SpriteRenderer:
 --- !u!4 &1220645975
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 404800, guid: 4dd543f86ad60a546b4e9878043408d9, type: 2}
+  m_PrefabInternal: {fileID: 819399218}
   m_GameObject: {fileID: 1220645970}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
